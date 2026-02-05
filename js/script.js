@@ -46,7 +46,7 @@ $(function() {
     setInterval(changeBackgroundImage, totalInterval);
 
     // --- ハンバーガーメニューの開閉ロジック (jQuery) ---
-    const $hamburgerMenu = $('.hamburger-menu');
+    const $hamburgerMenu = $('.hamburger');
     const $spNav = $('.sp-nav');
     const $spNavLinks = $('.sp-nav ul li a'); // aタグ要素を取得
 
