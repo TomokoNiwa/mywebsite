@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TOMOKO NIWA PORTFOLIO</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<header class="layout-sub">
+		<h1><a href="index.html" style="text-decoration:none; color:inherit;">TOMOKO NIWA PORTFOLIO</a></h1>
+		
+		<nav class="pc-nav">
+			<ul>
+				<li><a href="index.html">TOP</a></li>
+				<li><a href="development.html">DEVELOPMENT</a></li>
+				<li><a href="info.html">WORKS</a></li>
+				<li><a href="info.html">BANNERS</a></li>
+				<li><a href="info.html">RESUME</a></li>
+			</ul>
+		</nav>
+
+		<div class="hamburger" id="hamburger">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+
+    <nav class="sp-nav" id="sp-nav">
+        <ul>
+			<li><a href="index.html">TOP</a></li>
+			<li><a href="development.html">DEVELOPMENT</a></li>
+			<li><a href="info.html">WORKS</a></li>
+			<li><a href="info.html">BANNERS</a></li>
+			<li><a href="info.html">RESUME</a></li>
+        </ul>
+    </nav>
+<main>
+<article class="fade-in-up">
+    <div class="info-container">
+		<section style="margin-bottom: 60px;">
+			<h2>Development</h2>
+			<p>
+				日々の暮らしと心を豊かにするためのアプリケーションや、<br class="pc-br">
+				業務・進行管理をサポートするツールを、勉強しながら開発しています。
+			</p>
+			<h3>Application Portal</h3>
+
+			<a href="https://tomokoniwa.github.io/app/yorisoi/index.html" target="_blank" class="app-card">
+				<span class="app-name">🍀 yorisoi (寄り添い)</span>
+				<span class="app-desc">大切な家族のための安心ボード。PWA対応によりホーム画面から1タップで起動。スケジュール共有や見守り機能を提供します。</span>
+			</a>
+			<a href="https://tomokoniwa.github.io/app/recipe/index.html" target="_blank" class="app-card">
+				<span class="app-name">🍳 Recipe Log</span>
+				<span class="app-desc">自由なメモ書きから、システム連携用の構造化データ（JSON）を同時生成するレシピ管理ツール。将来的な材料検索システムへの拡張を想定したデータ設計を行っています。</span>
+			</a>
+			<h3>Productivity Tools</h3>
+			<a class="app-card" href="https://tomokoniwa.github.io/tool/planner/index.html" target="_blank"> 
+				<span class="app-name">🗓 業務管理ツール</span>
+				<span class="app-desc">スケジュール可視化/タスク・ステータス管理</span>
+			</a>
+			<div style="margin-top: 25px;">
+				<a href="https://github.com/tomokoniwa" target="_blank" rel="noopener noreferrer" class="github-btn">
+					GitHubでコードを公開しています
+				</a>
+			</div>
+		</section>
+    </div>
+</article>
+</main>
+<footer id="footer"><address>&copy; <span id="current-year"></span> TOMOKO NIWA All Rights Reserved.</address></footer>
+<script src="./js/script.js"></script>	
+</body>
+</html>
